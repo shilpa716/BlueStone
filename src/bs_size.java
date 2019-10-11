@@ -37,6 +37,7 @@ public class bs_size {
 		// To buy the kada 
 		driver.findElement(By.id("buy-now")).click();
 		Thread.sleep(500);
+		driver.close();
 
 	}
 
